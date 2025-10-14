@@ -1,0 +1,21 @@
+body {
+  background: #000;
+  color: #fff;
+  padding: 25px;
+  font-family: sans-serif;
+}
+.center-text{
+  text-align: center;
+}
+
+ ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+
+  ul li::before {
+    content: '\2014'; 
+    position: absolute; 
+    margin-left: -20px; 
+    color: #fff;
+  }
